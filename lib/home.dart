@@ -6,7 +6,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Flutter ALL Widget Practice")),
+      appBar: AppBar(
+        title: const Text("Container Widget with column and Row-02"),
+      ),
 
       body: ListView(
         children: [
@@ -28,9 +30,18 @@ class HomePage extends StatelessWidget {
             title: const Text("Button Widget"),
             onTap: () => Navigator.pushNamed(context, '/button'),
           ),
+
           ListTile(
-            title: const Text("Container Widget"),
-            onTap: () => Navigator.pushNamed(context, '/container'),
+            title: const Text("Container Widget with column and Row-01"),
+            onTap: () => Navigator.pushNamed(context, '/container-01'),
+          ),
+          ListTile(
+            title: const Text("Container Widget with column and Row-02"),
+            onTap: () => Navigator.pushNamed(context, '/container-02'),
+          ),
+          ListTile(
+            title: const Text("Container Widget with column and Row-03"),
+            onTap: () => Navigator.pushNamed(context, '/container-03'),
           ),
           ListTile(
             title: const Text("ListView Widget"),
