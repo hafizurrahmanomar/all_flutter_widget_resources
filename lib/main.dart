@@ -1,5 +1,6 @@
 // widgets import
 import 'package:flutter/material.dart';
+import 'package:flutter_all_widgets_resource/widgets/bottom_nav_bar_screen.dart';
 import 'package:flutter_all_widgets_resource/widgets/container_01.dart';
 import 'package:flutter_all_widgets_resource/widgets/container_03.dart';
 
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         '/container-02': (context) => const ContainerWidget02(),
         '/container-03': (context) => const ContainerWidget03(),
         '/listview': (context) => const ListViewWidget(),
+        '/BottomNavBar': (context) => const BottomNavBarScreen(),
       },
     );
   }
