@@ -46,7 +46,7 @@ class HomePage extends StatelessWidget {
 
 
           ListTile(
-            title: const Text("ListView Widget"),
+            title: const Text("Card design with ListView Widget"),
             onTap: () => Navigator.pushNamed(context, '/listview'),
           ),
 
@@ -55,7 +55,10 @@ class HomePage extends StatelessWidget {
             onTap: () => Navigator.pushNamed(context, '/BottomNavBar'),
           ),
 
-
+          ListTile(
+            title: const Text("Product Show With ListView Widget"),
+            onTap: () => Navigator.pushNamed(context, '/listview_with_product'),
+          ),
 
         ],
       ),
